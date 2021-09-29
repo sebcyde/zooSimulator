@@ -1,0 +1,18 @@
+.giraffeObject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.giraffeObject .giraffeInfo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+.giraffeObject .giraffeInfo h1 {
+  color: black;
+  margin-top: 0%;
+  font-size: medium;
+}/*# sourceMappingURL=giraffe.css.map */

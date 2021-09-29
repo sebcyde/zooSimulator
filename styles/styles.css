@@ -1,0 +1,190 @@
+.elephantObject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.elephantObject .elephantInfo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+.elephantObject .elephantInfo h1 {
+  color: black;
+  margin-top: 0%;
+  font-size: medium;
+}
+
+.monkeyObject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.monkeyObject .monkeyInfo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+.monkeyObject .monkeyInfo h1 {
+  color: black;
+  margin-top: 0%;
+  font-size: medium;
+}
+
+.giraffeObject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.giraffeObject .giraffeInfo {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2%;
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+.giraffeObject .giraffeInfo h1 {
+  color: black;
+  margin-top: 0%;
+  font-size: medium;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+
+body {
+  max-width: 1920px;
+  height: 100%;
+  margin: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+}
+
+#clock {
+  position: relative;
+  background-color: white;
+  border: 1px solid #494949;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1%;
+  border-bottom-right-radius: 10px;
+}
+
+.controls {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  width: 20vw;
+  margin-left: auto;
+  position: relative;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  border: 1px solid #494949;
+  border-bottom-left-radius: 10px;
+}
+.controls h2 {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #a0a0a0;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
+}
+.controls > button {
+  margin: 0;
+  color: black;
+}
+.controls div {
+  margin-left: 0;
+  padding: 2%;
+  font-size: medium;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.controls div.stats {
+  padding-top: 0px;
+}
+.controls button,
+.controls .controls span {
+  padding: 2%;
+  width: 100%;
+  color: black;
+  font-size: large;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+.controls button :hover,
+.controls .controls span :hover {
+  cursor: pointer;
+}
+.controls .stats > span {
+  width: 90%;
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 1%;
+}
+.controls #giraffehealthtext {
+  border: none;
+}
+
+.ZooSimulator {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: fixed;
+  bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ZooSimulator div {
+  text-align: center;
+  color: black;
+}
+.ZooSimulator h1 {
+  font-size: medium;
+  margin-bottom: 1%;
+  color: black;
+}
+.ZooSimulator img {
+  max-width: auto;
+  max-height: 40vh;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<title>ZooSimulator</title>
+	</head>
+	<body>
+		<nav>
+			<div id="clock">
+				<div class="time">Current Time: 00:00</div>
+			</div>
+			<div class="controls">
+				<h2>Controls</h2>
+				<button id="feedAnimals">Feed Animals</button>
+				<span class="timeSkip"><button id="timeSkip">Skip Time</button></span>
+
+				<div class="stats">
+					<span id="giraffehealthtext"></span>
+
+					<span id="monkeyhealthtext"></span>
+
+					<span id="elephanthealthtext"></span>
+				</div>
+			</div>
+		</nav>
+		<div class="ZooSimulator">
+			<!-- Giraffe -->
+			<div class="giraffeObject">
+				<div class="giraffeInfo">
+					<h1>Giraffe</h1>
+					<progress id="giraffehealth" value="100" max="100"></progress>
+				</div>
+
+				<img src="assets/girraffe.png" alt="" class="giraffe" />
+			</div>
+
+			<!-- Monkey-->
+			<div class="monkeyObject">
+				<div class="monkeyInfo">
+					<h1>Monkey</h1>
+					<progress id="monkeyhealth" value="100" max="100"></progress>
+				</div>
+
+				<img src="assets/monkey.png" alt="" class="monkey" />
+			</div>
+
+			<!-- Elephant-->
+			<div class="elephantObject">
+				<div class="elephantInfo">
+					<h1>Elephant</h1>
+					<progress id="elephanthealth" value="100" max="100"></progress>
+				</div>
+
+				<img src="assets/elephant.png" alt="" class="elephant" />
+			</div>
+		</div>
+		<script src="app.js" type="module"></script>
+	</body>
+</html>
